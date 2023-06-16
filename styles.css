@@ -1,0 +1,41 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    background-color: #1F2937;
+    height: 200px;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.sub-body {
+    display: flex;
+    flex: 1;
+    background-color: blue;
+    
+}
+
+.info {
+    background-color: white;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+.action {
+    background-color: white;
+}
+
+.footer {
+    background-color: #1F2937;
+    height: 75px;
+}
