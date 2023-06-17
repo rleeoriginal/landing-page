@@ -80,12 +80,6 @@ img {
     width: 400px;
 }
 
-
-
-
-
-
-
 .body {
     display: flex;
     flex-direction: column;
@@ -94,11 +88,50 @@ img {
 
 .sub-body {
     flex: auto;
-    height: 300px;
+    height: 400px;
 }
 
 .info {
     background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.info-main {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+
+}
+
+.info-child {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 15px;
+}
+
+.subtext {
+    color: #1F2937;
+    text-align: center;
+    max-width: 150px;
 }
 
 .quote {
