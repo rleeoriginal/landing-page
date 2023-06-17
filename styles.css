@@ -45,8 +45,6 @@ body {
     display: flex;
     flex-direction: row;
     gap: 50px;
-
-
 }
 
 .left {
@@ -159,9 +157,28 @@ img {
 
 .action {
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-box {
+    background-color: #3882F6;
+    width: 650px;
+    height: 150px;
+    border-radius: 15px;
+    padding-left: 75px;
+    padding-right: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer {
     background-color: #1F2937;
     height: 75px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
