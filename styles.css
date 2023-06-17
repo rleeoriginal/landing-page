@@ -136,6 +136,25 @@ img {
 
 .quote {
     background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    justify-content: center;
+    gap: 15px;
+}
+
+.message {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    overflow: auto;
+}
+
+.author {
+    font-weight: bold;
+    display: flex;
+    justify-content: end;
 }
 
 .action {
